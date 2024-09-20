@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+
+background-color: aqua;
+height: 100vh;
+width: 100vw;
+display: flex;
+/* align-items: center; */
+/* text-align: center; */
+justify-content: space-around;
+flex-direction:column;
+
+}
+
+
+#addStudentForm{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction:column;
+}
+#addStudentForm input{
+    margin: 10px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div  class="button"  >
+<button style="height: 20px; width: 80px;" ><a href="/studentPortal/index.html">edit profile</a></button>  <br> <br>
+<button style="height: 20px; width: 80px;" ><a href="/uploadmarks/index.html">uploadmarks</a></button> <br><br>
+<button style="height: 20px; width: 80px;"><a href="/viewResult/index.html">viewResult</a></button> <br> <br>
+
+</div>
+        <form id="addStudentForm">
+            <h1>admin Portal</h1>
+<hr>
+            <h2> add-Student-Form</h2>
+
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="text" id="cnic" placeholder="CNIC" required>
+            <button type="submit">Add Student</button>
+        </form>
+        
+        <script type="module" src="addStudent.js"></script>
+        
+
+
+
+    </div>
+    
+</body>
+</html>
